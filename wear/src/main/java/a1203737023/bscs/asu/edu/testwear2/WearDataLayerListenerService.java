@@ -1,6 +1,7 @@
 package a1203737023.bscs.asu.edu.testwear2;
 
 import android.content.Intent;
+import android.util.Log;
 
 import com.google.android.gms.wearable.MessageEvent;
 import com.google.android.gms.wearable.WearableListenerService;
