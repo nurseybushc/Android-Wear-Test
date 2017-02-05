@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="a1203737023.bscs.asu.edu.testwear2.MainActivity"
+    tools:context="com.unocode.androidweartest.MainActivity"
     tools:deviceIds="wear_round">
 
     <TextView

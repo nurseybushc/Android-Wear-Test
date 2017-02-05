@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TestWear2</string>
+    <string name="enter_text">Enter Text Here</string>
+    <string name="send_message">Send Message</string>
 </resources>

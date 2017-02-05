@@ -1,4 +1,4 @@
-package a1203737023.bscs.asu.edu.testwear2;
+package com.unocode.androidweartest;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity implements DataApi.DataListe
     }
 
     private void sendMessage() {
-
         if (mNode != null && mGoogleApiClient!=null && mGoogleApiClient.isConnected()) {
             Wearable.MessageApi.sendMessage(
                     mGoogleApiClient, mNode.getId(), START_ACTIVITY_PATH, null).setResultCallback(
@@ -112,7 +111,6 @@ public class MainActivity extends AppCompatActivity implements DataApi.DataListe
         } else {
             //Improve your code
         }
-
     }
 
     private void resolveNode() {
@@ -125,8 +123,4 @@ public class MainActivity extends AppCompatActivity implements DataApi.DataListe
             }
         });
     }
-
-
-
-
 }

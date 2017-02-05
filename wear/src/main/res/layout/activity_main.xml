@@ -7,5 +7,5 @@
     android:layout_height="match_parent"
     app:rectLayout="@layout/rect_activity_main"
     app:roundLayout="@layout/round_activity_main"
-    tools:context="a1203737023.bscs.asu.edu.testwear2.MainActivity"
+    tools:context="com.unocode.androidweartest.MainActivity"
     tools:deviceIds="wear"></android.support.wearable.view.WatchViewStub>
